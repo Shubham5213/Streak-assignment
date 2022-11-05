@@ -1,4 +1,5 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import DasboardPage from "./pages/DasboardPage";
 import LoginPage from "./pages/LoginPage";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
       <>
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<LoginPage />} />
+            <Route exact path="/login" element={<LoginPage />} />
+            <Route exact path="/" element={<DasboardPage />} />
           </Routes>
         </BrowserRouter>
       </>

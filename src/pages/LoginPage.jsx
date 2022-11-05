@@ -1,5 +1,4 @@
-import { useState, Link } from 'react';
-import { useNavigate } from "react-router-dom";
+import { useState } from 'react';
 import {
     Flex,
     Box,
@@ -7,19 +6,13 @@ import {
     FormLabel,
     Input,
     Stack,
-    Heading,
     Button,
     Text,
     Divider,
     HStack,
-    Image,
     Icon,
     Spacer,
 } from "@chakra-ui/react";
-import { CloseIcon } from '@chakra-ui/icons'
-import closeButton from "../images/closeIcon.svg";
-
-import { RiCloseCircleFill } from "react-icons/ri";
 import { GrFormClose } from "react-icons/gr";
 
 const LoginPage = () => {
@@ -119,7 +112,7 @@ const LoginPage = () => {
                                         size="lg"
                                         disabled={!validate()}
                                         colorScheme="purple"
-                                        fontSize="lg"
+                                        fontSize="xl"
                                         w="85vw"
                                         maxW="350px"
                                         fontWeight="semibold"
