@@ -5,6 +5,7 @@ import {
 import TransactionCard from '../components/TransactionCard';
 import Savings from '../components/Savings';
 import Count from '../components/Count';
+import Footer from '../components/Footer';
 const DasboardPage = () => {
     return (
         <>
@@ -12,6 +13,7 @@ const DasboardPage = () => {
                 <TransactionCard />
                 <Savings />
                 <Count />
+                <Footer />
             </Flex>
         </>
     )

@@ -107,7 +107,7 @@ const LoginPage = () => {
                                     </Text>
                                 </Stack>
                                 <Stack pt="7vh" align="center">
-                                    <Button
+                                    {/* <Button
                                         type="button"
                                         size="lg"
                                         disabled={!validate()}
@@ -118,7 +118,29 @@ const LoginPage = () => {
                                         fontWeight="semibold"
                                         borderRadius="0.4em"
                                     >Create Profile
-                                    </Button>
+                                    </Button> */}
+                                    <Box
+                                        as='button'
+                                        h='6vh'
+                                        lineHeight='1.2'
+                                        borderRadius="0.4em"
+                                        border='1px'
+                                        w="85vw"
+                                        maxW="350px"
+                                        fontSize='xl'
+                                        fontWeight="semibold"
+                                        bg='#500061'
+                                        borderColor='#ccd0d5'
+                                        color='#FFFFFF'
+                                        _hover={{ bg: '#500061' }}
+                                        _active={{
+                                            bg: '#500061',
+                                            transform: 'scale(0.98)',
+                                            borderColor: '#bec3c9',
+                                        }}
+                                    >
+                                        Create Profile
+                                    </Box>
                                 </Stack>
                             </Stack>
                         </Box>

@@ -24,12 +24,12 @@ const TransactionCard = () => {
                         Recent transactions
                     </Text>
                     <HStack justify="space-between" py="0.5vh" w="full" >
-                        <Image src={BurgerIcon} alt="" w="18vw" maxW="70px" ml="25px"></Image>
+                        <Image src={BurgerIcon} alt="" w="15vw" maxW="70px" ml="25px"></Image>
                         <VStack align="left" spacing="0em" pr="70px">
                             <Heading fontSize="xl">Food & Drinks</Heading>
                             <Text fontSize="lg">02:30 pm</Text>0
                         </VStack>
-                        <Text fontSize="xl" fontWeight="bold" pr="25px" pb="3vh">
+                        <Text fontSize="xl" fontWeight="bold" pr="2vw" pb="3vh" whiteSpace="nowrap">
                             -₹50
                         </Text>
                     </HStack>
@@ -40,7 +40,7 @@ const TransactionCard = () => {
                             <Heading fontSize="xl" >Store sale</Heading>
                             <Text fontSize="lg">Jun - 4:30 PM</Text>
                         </VStack>
-                        <Text fontSize="xl" fontWeight="bold" pr="25px" pb="3vh">
+                        <Text fontSize="xl" fontWeight="bold" pr="2vw" pb="3vh" whiteSpace="nowrap">
                             -₹140
                         </Text>
                     </HStack>
@@ -50,7 +50,7 @@ const TransactionCard = () => {
                             <Heading fontSize="xl">Money credited</Heading>
                             <Text fontSize="lg">Jun - 12:30 PM</Text>
                         </VStack>
-                        <Text fontSize="xl" fontWeight="bold" pr="25px" pb="3vh" color="#00600A">
+                        <Text fontSize="xl" fontWeight="bold" pr="2vw" pb="3vh" color="#00600A" opacity="0.9" whiteSpace="nowrap">
                             +₹4500
                         </Text>
                     </HStack>
@@ -58,7 +58,7 @@ const TransactionCard = () => {
                         <Text fontSize="2xl" fontWeight="bold" color="#A655A8" py="1vh" pl="25px">
                             All transactions
                         </Text>
-                        <Icon as={IoMdArrowDropright} w={8} h={8} pt="7px" color="#AE65B0"pr="5px"></Icon>
+                        <Icon as={IoMdArrowDropright} w={8} h={8} pt="7px" color="#AE65B0" pr="5px"></Icon>
                     </HStack>
                 </VStack>
             </Flex>

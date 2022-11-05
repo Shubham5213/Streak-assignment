@@ -43,7 +43,7 @@ const Savings = () => {
                                 h="3.8em"
                                 borderRadius={'md'}
                                 bg="#58698C"
-                                opacity="0.8"
+                                opacity="0.3"
                             />
                             <VStack py="2vh" pl="5px">
                                 <Text w="full" color="#31446B" fontSize="xl" fontWeight="semibold">Playstation 5</Text>
